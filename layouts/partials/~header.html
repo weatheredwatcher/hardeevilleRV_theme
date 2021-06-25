@@ -1,9 +1,6 @@
 {{ $colorScheme := default "light" .Site.Params.header.colorScheme }}
 
 <header class="blog-header">
-    <div id="top-stripe">
-        this is a test
-    </div>
     <nav class="navbar navbar-expand-md navbar-{{ $colorScheme }} bg-{{ $colorScheme }}">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}">
