@@ -11,8 +11,9 @@
 
 #top-stripe {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 16pt;
   background-color: green;
-  height: 20px;
+  color: #fff;
+  height: 30px;
   width: 100%;
 }
